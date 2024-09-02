@@ -1,21 +1,19 @@
-player1=str(input("batu,kertas,gunting:"))
-player2=str(input("batu,kertas,gunting:"))
-
-if("player 1 gunting==player 2 batu"):
-    print('batu menang')
-elif("player 1 gunting==player 2 kertas"):
-    print('gunting menang')
-elif('player 1 gunting==player 2 gunting'):
-    print('seri')
-elif('player 1 batu==player 2 kertas'):
-    print('kertas menang')
-elif('player 1 batu==player2 gunting'):
-    print('batu menang')
-elif('player 1 batu==player 2 batu'):
-    print('seri')
-elif('player 1 kertas==player 2 kertas'):
-    print('seri')
-elif("player1 kertas==player 2 batu"):
-    print('kertas menang')
-elif('player 1 kertas==player2 gunting'):
-    print('gunting menang')
+player1 = input("pilih salah satu(batu,gunting,kertas): ")
+player2 = input("pilih salah satu(batu,gunting,kertas): ")
+if player1 == player2:
+    print("pilihan kedua player sama {player1}. It's a tie!")
+elif player1 == "batu":
+    if player2== "gunting":
+        print("Omoo you win!")
+    else:
+        print("Oops you lose!")
+elif player1 == "kertas":
+    if player2 == "batu":
+        print("Omoo you win!")
+    else:
+        print("Oops you lose!")
+elif player1 == "gunting":
+    if player2 == "kertas":
+        print("Omoo You win!")
+    else:
+        print("Oops you lose!.")
