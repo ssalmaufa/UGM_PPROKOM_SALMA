@@ -4,16 +4,16 @@ if player1 == player2:
     print("pilihan kedua player sama {player1}. It's a tie!")
 elif player1 == "batu":
     if player2== "gunting":
-        print("Omoo you win!")
+        print("batu win the game!")
     else:
-        print("Oops you lose!")
+        print("Oops player 1 you lose!")
 elif player1 == "kertas":
     if player2 == "batu":
-        print("Omoo you win!")
+        print("kertas win the game!")
     else:
-        print("Oops you lose!")
+        print("Oops player 1 you lose!")
 elif player1 == "gunting":
     if player2 == "kertas":
-        print("Omoo You win!")
+        print("gunting win the game!")
     else:
-        print("Oops you lose!.")
+        print("Oops player 1, u lose!.")
